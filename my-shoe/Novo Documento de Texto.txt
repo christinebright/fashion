@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>my-shoes</title>
+	  <style></style>
+   </head>
+   <body>
+      <img src="shoes/dhoe13.jpg">
+   </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>My fashion website</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	  <style>
+	  body{
+	    width: 100%;
+		overflow: scroll;
+	  }
+	      h2{
+		     text-align: center;
+			 font-size: 35px;
+			 font-family: cursive;
+		  }
+		  p{
+		     font-size: 35px;
+			 font-family: fantasis;
+		  }
+		  .animate1{
+		      animation: fashion 5s linear 2s infinite alternate;
+			  position: relative;
+		  }
+		  @keyframes fashion{
+		          0%{font-size: 30px; font-family: fantasis; color: red; left: 0px; right: 0px;}
+				  25%{font-size: 20px; font-family: cursive; color: yellow; left: 200px; right: 0px;}
+				  50%{font-size: 35px; font-family: arial; color: lightblue; left: 0px; right: 200px;}
+				  100%{font-size: 20px; font-family: curve; color: lightgreen; left: 200px; right: 200px;}
+		  }
+		  /* Navbar */
+		  ul {
+		      list-style-type: none;
+			  margin: 0px;
+			  padding: 0px;
+			 
+		  }
+		    ul li{
+			   float: left;
+			   width: 200px;
+			   height: 80px;
+			   background: yellow;
+			   line-height: 30px;
+			 }
+			 li a{
+			       text-decoration: none;
+				   display: block;
+				   font-size: 30px;
+				   padding: 15px;
+                     
+			      }
+			li a:hover{
+			        background: red;
+			         }
+					 ul li ul li {
+					   display: none;
+					          }
+					ul li:hover ul li{
+					         display: block;
+					             }
+					 /* add research input */
+					    #research{
+						   margin-left: 70%; 
+                           position: relative;					   
+						}
+						/* input hover */
+						
+						/* select option */
+						
+						#clothes{
+						      width: 100px;
+							  height: 50px;
+						    }
+						/* footer that i will add social media icon */
+						#footer {
+						   width: 100%;
+						   height: 250px;
+						   background: lightgreen;
+						       }
+							#footer1 a{
+							    background: grey;
+								height: 60px;
+							}
+							#footer2{
+							   margin: auto;
+							}
+							
+	  </style>
+   </head>
+   <body>
+      <!--animate from left to right  and changing color -->
+	    <div class="animate1">
+        <h2>Christine's fashion</h2>
+		<p>Dress like you're already Famous</p>
+		</div>
+		  <!-- Navbar -->
+		  <ul>
+		     <li><a href="#">Clothes</a>
+			      <ul>
+				     <li><a href="#">Jacket</a></li>
+					 <li><a href="#">T-shirt</a></li>
+					 <li><a href="#">Jeans</a></li>
+					 <li><a href="#">Shirt</a></li>
+				  </ul>
+			 </li>
+			 <li><a href="#">Shoes</a></li>
+			 <li><a href="#">Bags</a></li>
+			 <li><a href="#">Accessoires</a></li>
+		  </ul>
+		     <div id="research">
+			     <input type="text" placeholder="research" style="width: 190px; height:50px; 
+				 border: 1px solid grey; border-radius: 10px; ">
+				 </input>
+				 <img src="images/Search1.png" alt="Search" style="width: -60px; height:50px;">
+			 </div>
+			 <!-- image as backgroung-->
+			    <img src="images/dresse.jpg" alt="dresse" style="width: 550px; height: 400px;
+				margin-left: 17%; position: relative;">
+				<img src="images/fashion5.jpg" alt="fashion5" style="width: 550px; height: 400px; ">
+				<!-- Form Select Size and color *color select remain*-->
+				 <form>
+				       <select id="clothes" name="size" >
+					       <option value="S">S</option>
+						   <option value="XL">XL</option>
+						   <option value="M">M</option>
+						   <option value="L">L</option>
+					   </select>
+				 </form>
+				 <!-- inside this footer i will social media icon   -->
+				 <div id="footer1">
+				         <ul>
+				         <li><a href="#">Home</a></li>
+						 <li><a href="#">New</a></li>
+						 <li><a href="#">About</a></li>
+						 <li><a href="#">Contact</a></li>
+						   </ul>
+						</div>
+						  <!--  add social media icon-->
+						    <div id="footer2">
+						  <ul>
+                         <li><a href="#"><i class="fa fa-youtube" style=""></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+				 </div>
+   </body>
+</html>

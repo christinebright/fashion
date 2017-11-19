@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Clotes</title>
+	   <style>
+	   img{
+	       width: 30%;
+		   min-width: 30%;
+		   float: left;
+	   }
+	   </style>
+	</head>
+	<body>
+	    <img src="clothes/blazer.jpg">
+		 <img src="clothes/blazer10.jpg">
+	</body>
+</html>

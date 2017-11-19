@@ -1,0 +1,17 @@
+<!DOCTYPE htlm>
+<htlm>
+     <head>
+	    <title>Bags</title>
+		<style></style>
+	 </head>
+	 <body>
+	    <!-- NavBar-->
+		<nav>
+		   <ul>
+		      <li><a href="#">size</a></li>
+			  <li><a href="#">color</a></li>
+			  <li><a href="#">Type</a></li>
+		   </ul>
+		</nav>
+	 </body>
+</htlm>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Accessoires</title>
+	   <style>
+	   
+	   </style>
+	</head>
+	<body>
+	     <img src="accessoires_images/collar.jpg">
+	</body>
+</html>
