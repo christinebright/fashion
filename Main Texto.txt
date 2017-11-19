@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>My fashion website</title>
+	  <style>
+	  body{
+	    width: 100%;
+	  }
+	      h2{
+		     text-align: center;
+			 font-size: 35px;
+			 font-family: cursive;
+		  }
+		  p{
+		     font-size: 35px;
+			 font-family: fantasis;
+		  }
+		  .animate1{
+		      animation: fashion 5s linear 2s infinite alternate;
+			  position: relative;
+		  }
+		  @keyframes fashion{
+		          0%{font-size: 30px; font-family: fantasis; color: red; left: 0px; right: 0px;}
+				  25%{font-size: 20px; font-family: cursive; color: yellow; left: 200px; right: 0px;}
+				  50%{font-size: 35px; font-family: arial; color: lightblue; left: 0px; right: 200px;}
+				  100%{font-size: 20px; font-family: curve; color: lightgreen; left: 200px; right: 200px;}
+		  }
+		  /* Navbar */
+		  ul {
+		      list-style-type: none;
+			  margin: 0px;
+			  padding: 0px;
+			 
+		  }
+		    ul li{
+			   float: left;
+			   width: 160px;
+			   height: 60px;
+			   background: yellow;
+			   line-height: 30px;
+			 }
+			 li a{
+			       text-decoration: none;
+				   display: block;
+				   font-size: 30px;
+				   padding: 15px;
+                     
+			      }
+			li a:hover{
+			        background: red;
+			         }
+					 ul li ul li {
+					   display: none;
+					          }
+					ul li:hover ul li{
+					         display: block;
+					             }
+					 /* add research input */
+					    #research{
+						   margin-left: 70%;  
+						}
+						/* input hover */
+						
+	  </style>
+   </head>
+   <body>
+      <!--animate from left to right  and changing color -->
+	    <div class="animate1">
+        <h2>Christine's fashion</h2>
+		<p>Dress like you're already Famous</p>
+		</div>
+		  <!-- Navbar -->
+		  <ul>
+		     <li><a href="#">Clothes</a>
+			      <ul>
+				     <li><a href="#">Jacket</a></li>
+					 <li><a href="#">T-shirt</a></li>
+					 <li><a href="#">Jeans</a></li>
+					 <li><a href="#">Shirt</a></li>
+				  </ul>
+			 </li>
+			 <li><a href="#">Shoes</a></li>
+			 <li><a href="#">Bags</a></li>
+			 <li><a href="#">Accessoires</a></li>
+		  </ul>
+		     <div id="research">
+			     <input type="text" placeholder="research" style="width: 190px; height:50px; 
+				 border: 1px solid grey; border-radius: 10px; ">
+				    <img src="images/Search1.png" alt="Search" style="width: 60px; height:50px;">
+				 </input>
+			 </div>
+   </body>
+</html>
